@@ -1,0 +1,25 @@
+BODY {
+
+	color: #000000;
+}
+
+
+A {
+	text-decoration: underline;
+	color: #006300;
+}
+
+A:Hover {
+	text-decoration: none;
+	color: #31CE31;
+}
+
+.style2 {
+	color: #006300;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma;
+}
+
+
+
