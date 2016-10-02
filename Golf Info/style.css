@@ -4,11 +4,14 @@ BODY {
     background-image: url("https://cbreen872.github.io/Golf%20Info/img/background.jpg");
 }
 
-.header {
+header {
     padding: 1em;
-    background-image: url("https://cbreen872.github.io/Golf%20Info/img/golfinfo.jpg");
+    color: white;
+    background-color: green;
     clear: left;
+    text-align: center;
 }
+
 .nav {background:#eee;}
 
 .nav ul {
