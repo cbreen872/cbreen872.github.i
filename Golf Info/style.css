@@ -4,7 +4,19 @@ BODY {
     background-image: url("https://cbreen872.github.io/Golf%20Info/img/background.jpg");
 }
 
+.nav {background:#eee;}
 
+.nav ul {
+    list-style-type: none;
+ padding: 0;
+}
+   
+.nav ul a {
+ text-decoration: none;
+}
+.article {
+    text-align: left;
+}
 A {
 	text-decoration: underline;
 	color: #006300;
