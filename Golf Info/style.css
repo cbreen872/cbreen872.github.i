@@ -4,6 +4,11 @@ BODY {
     background-image: url("https://cbreen872.github.io/Golf%20Info/img/background.jpg");
 }
 
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
 header {
     padding: 1em;
     color: white;
@@ -22,9 +27,13 @@ header {
 .nav ul a {
  text-decoration: none;
 }
-.article {
-    text-align: left;
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
 }
+
 A {
 	text-decoration: underline;
 	color: #006300;
