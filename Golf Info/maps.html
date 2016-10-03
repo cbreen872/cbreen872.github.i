@@ -39,17 +39,44 @@
 
 <h2>Maps</h2>
 <p>Battle Island</p>
-<div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 43.3614088, lng: -76.437562},
-          zoom: 8
-        });
-      }
-    </script>
-	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<div id="googleMap1" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap2" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap3" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap4" style="width:400px;height:300px;"></div>
+
+<script>
+function myMap() {
+  var mapOptions1 = {
+    center: new google.maps.LatLng(43.3614088,,-76.4397507),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var mapOptions2 = {
+    center: new google.maps.LatLng(43.393602,-76.5885297),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.SATELLITE
+  };
+  var mapOptions3 = {
+    center: new google.maps.LatLng(43.4789389,-76.4572577),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+  };
+  var mapOptions4 = {
+    center: new google.maps.LatLng(43.4145418,-76.563505),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  };
+  var map1 = new google.maps.Map(document.getElementById("googleMap1"),mapOptions1);
+  var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapOptions2);
+  var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapOptions3);
+  var map4 = new google.maps.Map(document.getElementById("googleMap4"),mapOptions4);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 	
 </article>
 
