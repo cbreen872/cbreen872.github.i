@@ -65,10 +65,9 @@ ul {
     background-color: #F0F0F0;
 }
 
-#map_canvas {
-        margin: 0;
-        padding: 0;
-        height: 100%;
+#gmap_canvas img {
+	max-width:none!important;
+	background:none!important;
 }
 
 
