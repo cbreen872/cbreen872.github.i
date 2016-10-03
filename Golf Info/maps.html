@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Maps</title>
+	<link rel=stylesheet type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Golf Info</h1>
+</header>
+
+<nav>
+<ul>
+<li>HTML Assignment</li>
+<ul>
+<li><a href="https://cbreen872.github.io/Golf%20Info/index.html">Home</a></li>
+<li><a href="https://cbreen872.github.io/Golf%20Info/about.html">About</a></li>
+<li><a href="https://cbreen872.github.io/Golf%20Info/facts.html">Fun Facts</a></li>
+<li><a href="https://cbreen872.github.io/Golf%20Info/links.html">Links</a></li>
+</ul>
+<li>HTML5 Assignment</li>
+<ul>
+<li><a href="https://cbreen872.github.io/Golf%20Info/video.html">Video</a></li>
+<li><a href="https://cbreen872.github.io/Golf%20Info/video.html">Maps</a></li>
+</ul>
+</ul>
+</nav>
+
+<article>
+
+<h2>Video</h2>
+<p>Battle Island</p>
+<div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 51.5073509, lng: -0.12775829999998223},
+          zoom: 8
+        });
+      }
+    </script>
+	
+</article>
+
+</div>
+
+</body>
+</html>
+
