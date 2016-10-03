@@ -65,6 +65,10 @@ ul {
     background-color: #F0F0F0;
 }
 
+#map-canvas {
+width: 600px;
+height: 300px;
+}
 
 
 
