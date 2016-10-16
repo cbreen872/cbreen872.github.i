@@ -6,7 +6,7 @@
 		
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Canvas</title>
+	<title>Swing</title>
 	<link rel=stylesheet type="text/css" href="style.css">
 	</head>
 
@@ -33,36 +33,37 @@
 <li><a href="https://cbreen872.github.io/Golf%20Info/maps.html">Maps</a></li>
 <li><a href="https://cbreen872.github.io/Golf%20Info/canvas.html">Canvas</a></li>
 </ul>
+<li>CSS Assignment</li>
+<ul>
+<li><a href="https://cbreen872.github.io/Golf%20Info/swing.html">Golf Swing</a></li>
+</ul>
 </ul>
 </nav>
 
 <article>
 
-<h2>Canvas</h2>
+<h2>Golf Swing</h2>
 
-<p>Image to use:</p>
-<img id="polargolf" src="http://www.searchamateur.com/pictures/polar-golfer-bear-playing-golf-1.jpg" alt="The Scream" width="400" height="313">
-
-<p>Canvas to fill:</p>
-<canvas id="myCanvas" width="600" height="400"
-style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML5 canvas tag.</canvas>
-
-<p><button onclick="myCanvas()">Try it</button></p>
-
-<script>
-function myCanvas() {
-    var c = document.getElementById("myCanvas");
-    var ctx = c.getContext("2d");
-    var img = document.getElementById("polargolf");
-    ctx.drawImage(img,10,10);
+<p>There are many factors involved when driving the golf ball.  When looking at just purely distance, however, the driver is the best club to optimize the distance of the golf ball.  The interesting thing about this is it does not adhere to the laws of physics.
+<style>
+div {
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    border: 1px dotted black;
 }
-</script>
 
-</article>
+div#myDiv {
+    -webkit-transform: rotateZ(45deg); /* Safari */
+    transform: rotateZ(90deg); /* Standard syntax */
+}
+</style>
+</head>
 
+<div id="myDiv">
+According to the laws of physices he angle of the ball that should drive the ball the farthest is 45 degrees.
 </div>
-
+<p>The loft of a driver is typically only 9.5 to 10.5 degrees.</p>
 </body>
 </html>
 
