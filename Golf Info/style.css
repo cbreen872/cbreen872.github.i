@@ -70,5 +70,10 @@ ul {
 	background:none!important;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 
 
